@@ -1,0 +1,12 @@
+CREATE DATABASE College;
+DROP DATABASE College;
+USE College;
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Age INT,
+    Email VARCHAR(100)
+);
+CREATE USER student1 IDENTIFIED BY 'pass123';
+CREATE USER teacher1 IDENTIFIED BY 'teach123';
+CREATE USER admin1 IDENTIFIED BY 'admin123';
